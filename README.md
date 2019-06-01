@@ -3,7 +3,7 @@ package and read its vignette, run the following commands:
 
 ```{r,eval=FALSE}
 install.packages("devtools")
-devtools::install_github("fhebert/MGFRTest")
+devtools::install_github("fhebert/MGFRTest",build_opts=NULL)
 library(MGFRTest)
 vignette("MGFRTest")
 ```
