@@ -1,0 +1,6 @@
+useDynLib(MGFRTest)
+import(RcppEigen)
+import(Rcpp)
+import(Matrix)
+export(ScoreTest)
+export(MGFR)
